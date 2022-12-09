@@ -3,7 +3,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Portfolio Website",
-  "homepage": "http://SkDangi48.github.io/skdportfolio",
+  "homepage": "https://SkDangi48.github.io/portfolio",
     "main": "index.js",
   "dependencies": {
     "@emailjs/browser": "^3.9.1",
@@ -28,13 +28,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
-    "url": "skdportfolio"
+    "url": "portfolio"
   },
   "author": "Satish",
   "license": "ISC",
