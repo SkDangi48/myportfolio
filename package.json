@@ -3,7 +3,7 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Portfolio Website",
-  "homepage": "http://satishkumar48.github.io/skdportfolio",
+  "homepage": "http://SkDangi48.github.io/skdportfolio",
     "main": "index.js",
   "dependencies": {
     "@emailjs/browser": "^3.9.1",
