@@ -10,7 +10,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Works from "./components/Works/Works";
 import Home from "./components/Home";
 function App() {
@@ -28,7 +28,7 @@ function App() {
       <Navbar/>
       
       <Routes>
-      <Route path="/skportfolio" element={<Home/>} />
+      <Route path="/" element={<Home/>} />
       
       <Route path="/intro" element={<Intro/>} />
       <Route path="skills" element={<Services/>} />
