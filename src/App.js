@@ -28,14 +28,14 @@ function App() {
       <Navbar/>
       
       <Routes>
-      <Route path="/" element={<Home/>} />
+      <Route path="/skportfolioweb" element={<Home/>} />
       
-      <Route path="/intro" element={<Intro/>} />
-      <Route path="skills" element={<Services/>} />
-      <Route path="experience" element={<Experience/>} />
-      <Route path="portfolio" element={<Portfolio/>} />
-      <Route path="works" element={<Works/>} />
-      <Route path="contact" element={<Contact/>} />
+      <Route path="/skportfolioweb/intro" element={<Intro/>} />
+      <Route path="skportfolioweb/skills" element={<Services/>} />
+      <Route path="skportfolioweb/experience" element={<Experience/>} />
+      <Route path="skportfolioweb/portfolio" element={<Portfolio/>} />
+      <Route path="skportfolioweb/works" element={<Works/>} />
+      <Route path="skportfolioweb/contact" element={<Contact/>} />
        
         </Routes>
     
