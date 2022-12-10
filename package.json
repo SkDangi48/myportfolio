@@ -9,6 +9,7 @@
   "homepage": "https://SkDangi48.github.io/skportfolio",
   
   "main": "index.js",
+  "private":"false",
   
   "dependencies": {
   
