@@ -10,7 +10,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Works from "./components/Works/Works";
 import Home from "./components/Home";
 function App() {
@@ -24,22 +24,22 @@ function App() {
         color: darkMode ? "white" : "",
       }}
     >
-      <Router>
+      <HashRouter>
       <Navbar/>
       
       <Routes>
-      <Route path="/skportfolioweb" element={<Home/>} />
+      <Route path="/" element={<Home/>} />
       
-      <Route path="/skportfolioweb/intro" element={<Intro/>} />
-      <Route path="skportfolioweb/skills" element={<Services/>} />
-      <Route path="skportfolioweb/experience" element={<Experience/>} />
-      <Route path="skportfolioweb/portfolio" element={<Portfolio/>} />
-      <Route path="skportfolioweb/works" element={<Works/>} />
-      <Route path="skportfolioweb/contact" element={<Contact/>} />
+      <Route path="/intro" element={<Intro/>} />
+      <Route path="/skills" element={<Services/>} />
+      <Route path="/experience" element={<Experience/>} />
+      <Route path="/portfolio" element={<Portfolio/>} />
+      <Route path="/works" element={<Works/>} />
+      <Route path="/contact" element={<Contact/>} />
        
         </Routes>
     
-      </Router>
+      </HashRouter>
       <Footer />
     </div>
   );

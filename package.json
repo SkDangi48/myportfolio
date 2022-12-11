@@ -6,7 +6,7 @@
   
   "description": "Portfolio Website",
   
-  "homepage": "https://SkDangi48.github.io/skportfolioweb",
+  "homepage": "https://SkDangi48.github.io/skportfolioweb/",
   
   "main": "index.js",
   "private":"false",
@@ -94,7 +94,7 @@
   "type": "git",
   
     
-  "url": ""
+  "url": "skportfolioweb"
   
   },
   
